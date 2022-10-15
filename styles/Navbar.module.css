@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #CC0000;
+    height: 4em;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1 {
+    margin-left: 0.5em;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    font-size: 18px;
+    font-weight: bold;
+
+    list-style: none;
+    margin-left: 2em;
+    transition: 0.2s;
+
+    border-bottom: 2px solid transparent;
+}
+
+.navbar li:hover {
+    border-color: #fff;
+}
